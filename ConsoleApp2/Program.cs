@@ -1,12 +1,25 @@
 ﻿using System;
 
-namespace ConsoleApp2
+namespace C0709255
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            {
+                
+                int sum = 0;
+                int i = 0;
+
+                while (i < 6)
+                {
+                    i++;
+                    sum += i;
+                }
+                Console.WriteLine(sum);
+                Console.ReadLine();
+                //MihanjassarC0709255
+            }
         }
     }
 }
